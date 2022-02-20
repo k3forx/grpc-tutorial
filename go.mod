@@ -1,3 +1,3 @@
-module k3forx/grpc-tutorial
+module github.com/k3forx/grpc-tutorial
 
 go 1.17
