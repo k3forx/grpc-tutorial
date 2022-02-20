@@ -8,7 +8,7 @@ message BootRequest {}
 
 message BootResponse { string message = 1; }
 
-message InferRequest {}
+message InferRequest { string query = 1; }
 
 message InferResponse {
   sint64 answer = 1;
