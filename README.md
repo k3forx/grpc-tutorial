@@ -13,4 +13,8 @@ RPC stands for Remote Procedure Call.
 
 ❯ protoc -I. -Iinclude --go_out=module=github.com/k3forx/grpc-tutorial:. deepthought.proto
 include: warning: directory does not exist.
+
+❯ tree go/deepthought
+go/deepthought
+└── deepthought.pb.go
 ```
